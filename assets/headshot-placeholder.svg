@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 760" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="640" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#d7d5c8"/><stop offset="1" stop-color="#b9b69f"/></linearGradient>
+    <linearGradient id="shirt" x1="218" y1="483" x2="424" y2="760" gradientUnits="userSpaceOnUse"><stop stop-color="#59604c"/><stop offset="1" stop-color="#343c31"/></linearGradient>
+  </defs>
+  <rect width="640" height="760" fill="url(#bg)"/>
+  <circle cx="505" cy="150" r="115" fill="#f1eee2" fill-opacity=".38"/>
+  <circle cx="111" cy="571" r="164" fill="#9d9b81" fill-opacity=".2"/>
+  <path d="M103 760c13-135 98-225 217-225s204 90 217 225H103Z" fill="url(#shirt)"/>
+  <path d="M263 503h114l31 55-88 91-88-91 31-55Z" fill="#e9e2d2"/>
+  <path d="M232 208c0-84 39-136 90-136 67 0 103 54 103 143v97c0 79-42 137-105 137-56 0-88-58-88-137v-104Z" fill="#c18e6b"/>
+  <path d="M227 272c-27-96 18-192 108-192 76 0 129 61 116 173-20-13-38-34-52-66-43 32-106 51-172 47v38Z" fill="#3c342f"/>
+  <path d="M263 289c13-8 26-8 39 0m57 0c13-8 26-8 39 0" stroke="#44372e" stroke-width="7" stroke-linecap="round"/>
+  <path d="M305 359c18 14 39 14 57 0" stroke="#7d5145" stroke-width="6" stroke-linecap="round"/>
+  <path d="M270 319h18m81 0h18" stroke="#40372f" stroke-width="5" stroke-linecap="round"/>
+  <text x="320" y="705" fill="#f7f6f2" fill-opacity=".62" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" text-anchor="middle">ADD YOUR HEADSHOT</text>
+</svg>

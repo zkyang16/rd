@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f6f2">
+  <meta name="description" content="The personal website of Your Name — researcher, educator, and curious human.">
+  <title>Your Name — Researcher &amp; Educator</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <a class="wordmark" href="#top" aria-label="Your Name, home">
+      <span class="wordmark-name">Your<br>Name</span>
+      <span class="wordmark-rule" aria-hidden="true"></span>
+      <span class="wordmark-role">Research<br>&amp; ideas</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-icon" aria-hidden="true"><i></i><i></i></span>
+      <span class="menu-label">Menu</span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#writing">Writing</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero section-wrap" id="top" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Independent thinker · [Your field]</p>
+        <h1 id="hero-title">I study how <span class="accent-italic">[big idea]</span> shapes the world around us.</h1>
+        <div class="hero-intro">
+          <p class="lead"><strong>Your Name</strong> is a [role/title] at [university or organization]. My work explores [your central research question] through [your approach or methods].</p>
+          <p>I’m interested in the moments where [field or system] meets everyday life—and in making rigorous ideas useful beyond the page.</p>
+        </div>
+        <div class="hero-actions">
+          <a class="button button-dark" href="#research">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="text-link" href="mailto:you@example.com">Get in touch <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <div class="hero-art portrait-frame">
+        <div class="art-note art-note-top">A FACE TO<br>THE WORK</div>
+        <img class="headshot" src="assets/headshot-placeholder.svg" alt="Portrait placeholder for Your Name">
+        <div class="art-note art-note-bottom">CURIOUS BY<br>NATURE</div>
+        <span class="art-caption">Replace with your headshot: assets/headshot.jpg</span>
+      </div>
+      <div class="hero-index" aria-hidden="true"><span>01</span><span class="index-line"></span><span>04</span></div>
+    </section>
+
+    <section class="ticker" aria-label="Areas of interest">
+      <div class="ticker-track"><span>[Research theme one]</span><b>✳</b><span>[Research theme two]</span><b>✳</b><span>[Research theme three]</span><b>✳</b><span>[Research theme one]</span><b>✳</b><span>[Research theme two]</span></div>
+    </section>
+
+    <section class="section-wrap about-section" id="about" aria-labelledby="about-title">
+      <div class="section-kicker"><span>01 / A little context</span><span>ABOUT</span></div>
+      <div class="about-grid">
+        <h2 id="about-title">Good questions deserve <em>careful attention.</em></h2>
+        <div class="about-copy">
+          <p class="lead">I’m a [researcher / designer / educator] working at the intersection of [field one] and [field two]. I want to understand not only how things work, but who that knowledge can serve.</p>
+          <p>My path has taken me from [place or experience] to [current work]. Along the way, I’ve learned that the most interesting discoveries often come from looking across disciplines, listening closely, and being willing to revise the question.</p>
+          <a class="text-link" href="#contact">A little more about me <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="research-section" id="research" aria-labelledby="research-title">
+      <div class="section-wrap">
+        <div class="section-kicker"><span>02 / What I’m thinking about</span><span>RESEARCH</span></div>
+        <div class="section-heading-row">
+          <h2 id="research-title">A few lines of <em>inquiry.</em></h2>
+          <p>Big questions, explored from different angles. These are starting points; the connections between them are where the story gets interesting.</p>
+        </div>
+        <div class="research-list">
+          <article class="research-card">
+            <span class="card-number">01</span>
+            <div><p class="card-label">THEME / [AREA ONE]</p><h3>[A clear, human question about your first theme]</h3><p>In this project, I investigate [specific problem] to understand [what is unknown]. The work combines [method] with [method], with the goal of [meaningful outcome].</p><a href="#contact" class="arrow-link" aria-label="Ask me about this research theme">↗</a></div>
+          </article>
+          <article class="research-card">
+            <span class="card-number">02</span>
+            <div><p class="card-label">THEME / [AREA TWO]</p><h3>What changes when we look at [topic] differently?</h3><p>I study [system or community] through [approach], connecting [scale or concept] to [larger consequence]. This helps us see [insight or impact].</p><a href="#contact" class="arrow-link" aria-label="Ask me about this research theme">↗</a></div>
+          </article>
+          <article class="research-card">
+            <span class="card-number">03</span>
+            <div><p class="card-label">THEME / [AREA THREE]</p><h3>Turning a complex idea into something useful.</h3><p>Here I work with [partners, data, or materials] to explore [question]. The aim is to translate careful research into [tool, policy, practice, or public understanding].</p><a href="#contact" class="arrow-link" aria-label="Ask me about this research theme">↗</a></div>
+          </article>
+        </div>
+        <div class="research-footnote"><span class="footnote-star">✳</span><p>One unifying question: <strong>[What is the central question tying your work together?]</strong></p></div>
+      </div>
+    </section>
+
+    <section class="feature-section section-wrap" aria-labelledby="feature-title">
+      <div class="section-kicker"><span>03 / In focus</span><span>FEATURED WORK</span></div>
+      <div class="feature-card">
+        <div class="feature-visual">
+          <div class="feature-graphic" aria-hidden="true"><span class="graphic-ring ring-one"></span><span class="graphic-ring ring-two"></span><span class="graphic-ring ring-three"></span><span class="graphic-core"></span><span class="graphic-label">FIELD<br>NOTES<br>№ 01</span></div>
+          <span class="visual-caption">Replace this graphic with a project photo or figure.</span>
+        </div>
+        <div class="feature-copy"><p class="card-label">SELECTED PROJECT · [YEAR–PRESENT]</p><h2 id="feature-title">[A project title that says what changed or what you discovered]</h2><p>What happens when [an intriguing condition or question]? This project brings together [people / methods / evidence] to reveal [key idea]. Its findings point toward [why this matters].</p><a class="button button-light" href="mailto:you@example.com?subject=Tell%20me%20about%20your%20project">Let’s talk about it <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="writing-section" id="writing" aria-labelledby="writing-title">
+      <div class="section-wrap">
+        <div class="section-kicker"><span>04 / Out in the world</span><span>WRITING &amp; NOTES</span></div>
+        <div class="section-heading-row"><h2 id="writing-title">Ideas worth <em>sharing.</em></h2><a class="text-link" href="#contact">All publications <span aria-hidden="true">↗</span></a></div>
+        <div class="writing-list">
+          <a class="writing-item" href="#contact"><span class="writing-date">2026 · ARTICLE</span><span class="writing-title">[Your latest publication or essay, in plain language]</span><span class="writing-arrow">↗</span></a>
+          <a class="writing-item" href="#contact"><span class="writing-date">2025 · TALK</span><span class="writing-title">[A talk, interview, or public conversation]</span><span class="writing-arrow">↗</span></a>
+          <a class="writing-item" href="#contact"><span class="writing-date">2024 · PAPER</span><span class="writing-title">[A foundational paper or project people should know]</span><span class="writing-arrow">↗</span></a>
+        </div>
+        <p class="writing-note">For a full list, see my <a href="#contact">CV <span aria-hidden="true">↗</span></a>.</p>
+      </div>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact" aria-labelledby="contact-title">
+      <div class="contact-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="contact-content"><p class="eyebrow"><span class="eyebrow-dot"></span> Open to good conversations</p><h2 id="contact-title">Have a question, idea, or <em>interesting problem?</em></h2><p>I’d be glad to hear from you—whether you’re exploring a collaboration, curious about my work, or just want to compare notes.</p><a class="button button-dark" href="mailto:you@example.com">Write me a note <span aria-hidden="true">↗</span></a></div>
+      <div class="contact-details"><span>BASED IN</span><p>[City, Country]</p><span>ELSEWHERE</span><p><a href="https://www.linkedin.com/">LinkedIn ↗</a><br><a href="https://scholar.google.com/">Google Scholar ↗</a><br><a href="https://orcid.org/">ORCID ↗</a></p></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><a class="footer-mark" href="#top">YN<span>✳</span></a><p>Thoughtfully curious, always in progress.</p><p>© <span id="year">2026</span> Your Name</p><a href="#top" class="back-top">Back to top ↑</a></footer>
+</body>
+</html>
