@@ -27,3 +27,8 @@ a{color:inherit}
   max-width: none;
   white-space: nowrap;
 }
+@media (max-width: 560px) {
+  #research-title {
+    white-space: normal;
+  }
+}
