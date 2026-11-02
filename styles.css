@@ -40,3 +40,6 @@ a{color:inherit}
   padding: 20px;
   box-sizing: border-box;
 }
+.feature-image {
+  transform: translateY(100px);
+}
